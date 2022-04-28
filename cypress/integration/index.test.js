@@ -1,13 +1,13 @@
-import cy from 'cypress'
+/* eslint-disable no-undef */
 describe('Pokedex', function() {
   it('front page can be opened', function() {
-    cy.visit('http://localhost:5000')
+    cy.visit('http://localhost:8080')
     cy.contains('ivysaur')
-    expect(cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')).to.be.true
+    cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
 
   it('go into Pokemon page', () => {
     cy.get('[href="/pokemon/ivysaur"]').click({ force: true })
-    expect(cy.contains(/chlorophyll/i)).to.be.true
+    cy.contains(/chlorophyll/i)
   })
 })
