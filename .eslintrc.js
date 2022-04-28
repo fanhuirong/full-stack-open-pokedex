@@ -7,7 +7,7 @@ module.exports = {
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended,cypress/recommended"
+    "plugin:react/recommended"
     
   ],
   "parserOptions": {
