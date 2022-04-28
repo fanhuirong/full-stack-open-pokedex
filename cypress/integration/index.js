@@ -10,4 +10,5 @@ describe('Pokedex', function() {
     cy.get('[href="/pokemon/ivysaur"]').click({ force: true })
     cy.contains(/chlorophyll/i)
   })
+
 })
