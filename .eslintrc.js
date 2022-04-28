@@ -9,6 +9,9 @@ module.exports = {
     "plugin:react/recommended"
     
   ],
+    "globals": {
+    "cy": true
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
