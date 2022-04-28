@@ -9,7 +9,7 @@
     "test": "cross-env NODE_ENV=test jest -verbose --runInBand",
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production",
-    "test:e2e": "cross-env NODE_ENV=test cypress open"
+    "test:e2e": "cypress open"
   },
   "repository": {
     "type": "git",
