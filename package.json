@@ -29,16 +29,13 @@
     "@babel/plugin-transform-runtime": "^7.10.0",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
-    "@testing-library/cypress": "^8.0.2",
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^10.0.4",
     "babel-jest": "^25.5.1",
     "babel-loader": "^8.1.0",
-    "cross-env": "^7.0.3",
     "css-loader": "^3.5.3",
-    "cypress": "^9.5.4",
+    "cypress": "^6.6.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest": "^23.11.0",
     "eslint-plugin-react": "^7.19.0",
     "html-loader": "^1.1.0",
@@ -50,15 +47,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^16.0.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "cypress": "^9.5.4",
-    "@testing-library/cypress": "^8.0.2",
-    "@testing-library/jest-dom": "^5.8.0",
-    "@testing-library/react": "^10.0.4"
+    "react-router-dom": "^5.2.0"
   }
 }
