@@ -2,16 +2,14 @@ module.exports = {
   "env": {
     "browser": true,
     "es6": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "cypress/globals": true
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended,cypress/recommended"
     
   ],
-    "globals": {
-    "cy": true
-  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
